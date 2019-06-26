@@ -23,6 +23,7 @@ public class LoginPageTest extends TestBase{
 	public void setUp(){
 		initialization();
 		loginPage = new LoginPage();	
+		System.out.println("Hi");
 	}
 	
 	@Test(priority=1)
